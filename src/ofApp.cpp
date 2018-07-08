@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup() {
 
-    shader.load("shadersGL3/shader");
+    shader.load("shadersES2/shader");
 
     backgroundImage.load("reveal.png");
     //foregroundImage.load("B.jpg");
@@ -27,8 +27,8 @@ void ofApp::setup() {
     ofClear(0, 0, 0, 255);
     fbo.end();
 
-    client.begin("localhost", 1883);
-    client.connect("openframeworks");
+    client.begin("192.168.0.117", 1883);
+    client.connect("openframeworks1");
 
     ofAddListener(client.onOnline, this, &ofApp::onOnline);
     ofAddListener(client.onOffline, this, &ofApp::onOffline);

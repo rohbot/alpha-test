@@ -1,5 +1,5 @@
 <settings>
-    <mqttServer>192.168.0.59</mqttServer>
+    <mqttServer>192.168.0.210</mqttServer>
     <gravity>9.8</gravity>
     <sceneName>field</sceneName>
 </settings>

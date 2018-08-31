@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "ofxMQTT.h"
+#include "ofxXmlSettings.h"
 #include "Ball.h"
 
 
